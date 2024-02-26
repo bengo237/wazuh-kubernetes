@@ -79,7 +79,16 @@ By using the kustomization file on the `local-env` variant we can now deploy the
 ```BASH
 $ kubectl apply -k envs/local-env/
 ```
+Config Local loadbalancer 
 
+```BASH
+$  kubectl apply -k metallb-config.yaml
+```
+Acces to wazuh dashboard using the dashboard Ip 
+```BASH
+$  kubectl get services -o wide -n wazuh
+```
+if not working use port-foward
 #### Accessing Dashboard
 
 To access the Dashboard interface you can use port-forward:

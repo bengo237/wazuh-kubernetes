@@ -89,6 +89,8 @@ Acces to wazuh dashboard using the dashboard Ip
 $  kubectl get services -o wide -n wazuh
 ```
 if not working use port-foward
+
+![Wazuh Home](./Wazuh%20Home.png)
 #### Accessing Dashboard
 
 To access the Dashboard interface you can use port-forward:

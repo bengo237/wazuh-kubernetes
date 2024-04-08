@@ -82,7 +82,7 @@ $ kubectl apply -k envs/local-env/
 Config Local loadbalancer 
 
 ```BASH
-$  kubectl apply -k metallb-config.yaml
+$  kubectl apply -f metallb-config.yaml
 ```
 Acces to wazuh dashboard using the dashboard Ip 
 ```BASH
